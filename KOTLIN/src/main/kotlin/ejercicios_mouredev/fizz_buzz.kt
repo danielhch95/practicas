@@ -1,4 +1,4 @@
-/*
+package ejercicios_mouredev/*
  * Reto #0
  * EL FAMOSO "FIZZ BUZZ"
  * Fecha publicación enunciado: 27/12/21
@@ -16,7 +16,7 @@
  * - Subiré una posible solución al ejercicio el lunes siguiente al de su publicación.
  *
  */
-fun main(){
+fun fizz_buzz(){
     for (valor in 1..100){
         if (valor%3 == 0 && valor%5 == 0){
             print("fizzbuzz")

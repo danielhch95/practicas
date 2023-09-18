@@ -1,4 +1,4 @@
-fun main(){
+fun ejercicios(){
 
     // Intro_B1_E1:
     val ladoCuadrado = 14
@@ -26,7 +26,15 @@ fun main(){
     print("peso: $peso\naltura: $altura\nIMC: $IMC\n\n$Tabla_IMC")
     println("\n\n")
 
-    // Intro_B1_E4:
+// Intro_B1_E4:
+    val segundos_iniciales: Int = 500000
+    val segundos: Int = 500000%60
+    val minutos: Int = (500000/60)%60
+    val horas: Int = ((500000/60)/60)%24
+    val dias: Int = (((500000/60)/60)/24)%365
+    val años: Int = (((500000/60)/60)/24)/365
+    print("Segundos: $segundos\nMinutos: $minutos\nHoras: $horas\nDias: $dias\nAños: $años")
+    println("\n\n")
 
     // Intro_B1_E5:
     var x_e5:Int = 0

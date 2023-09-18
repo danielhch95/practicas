@@ -1,3 +1,5 @@
+package ejercicios_mouredev
+
 fun pruebas() {
     val listaColores = mutableListOf("Azul", "Rojo", "Verde")
     println(listaColores)
