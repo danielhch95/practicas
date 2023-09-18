@@ -1,5 +1,7 @@
 package ejercicios_mouredev
 
+import kotlin.math.atan2
+
 /*
  * Reto #2
  * LA SUCESIÓN DE FIBONACCI
@@ -20,5 +22,15 @@ package ejercicios_mouredev
  */
 
 fun fibonacci_sucesion() {
+
+    var n1: Long= 0L
+    var n2: Long = 1L
+    for (index in 1..50) {
+        println(n1)
+        val fibo: Long = n1 + n2
+        n1 = n2
+        n2 = fibo
+    }
+
 
 }
