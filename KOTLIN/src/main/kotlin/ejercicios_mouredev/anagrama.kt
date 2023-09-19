@@ -1,4 +1,6 @@
-package ejercicios_mouredev/*
+package ejercicios_mouredev
+
+/*
  * Reto #1
  * ¿ES UN ANAGRAMA?
  * Fecha publicación enunciado: 03/01/22

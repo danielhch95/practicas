@@ -1,5 +1,7 @@
 package ejercicios_mouredev
 
+import org.w3c.dom.css.Rect
+
 /*
  * Reto #4
  * ÁREA DE UN POLÍGONO
@@ -20,6 +22,35 @@ package ejercicios_mouredev
  *
  */
 
-fun area_poligono() {
-
+fun area_poligono (Poligono: poligono) :Double{
+    Poligono.printarea()
+    return Poligono.calculo()
+}
+interface poligono{
+    fun calculo(): Double
+    fun printarea()
+}
+data class Cuadrado (val base:Double) : poligono {
+    override fun calculo(): Double {
+        return base*base
+    }
+    override fun printarea() {
+        println("El area del cuadrado es ${calculo()}")
+    }
+}
+open class Rectangulo (open val base:Double, open val altura:Double) : poligono {
+    open override fun calculo(): Double {
+        return base*altura
+    }
+    open override fun printarea() {
+        println("El area del rectángulo es ${calculo()}")
+    }
+}
+class Triangulo (base: Double, altura: Double) : Rectangulo(base, altura) {
+    override fun calculo(): Double {
+        return (base*altura)/2
+    }
+    override fun printarea() {
+        println("El área del triángulo es ${calculo()}")
+    }
 }
