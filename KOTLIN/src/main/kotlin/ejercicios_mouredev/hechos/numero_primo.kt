@@ -1,4 +1,4 @@
-package ejercicios_mouredev
+package ejercicios_mouredev.hechos
 
 /*
  * Reto #3

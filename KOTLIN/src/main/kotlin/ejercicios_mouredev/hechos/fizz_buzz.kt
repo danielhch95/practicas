@@ -1,4 +1,4 @@
-package ejercicios_mouredev/*
+package ejercicios_mouredev.hechos/*
  * Reto #0
  * EL FAMOSO "FIZZ BUZZ"
  * Fecha publicación enunciado: 27/12/21

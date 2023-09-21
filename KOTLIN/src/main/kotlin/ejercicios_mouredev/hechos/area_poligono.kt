@@ -1,6 +1,4 @@
-package ejercicios_mouredev
-
-import org.w3c.dom.css.Rect
+package ejercicios_mouredev.hechos
 
 /*
  * Reto #4
