@@ -13,7 +13,7 @@ fun Application.configureRouting() {
         get("/users") {
             call.respondRedirect("/")
         }
-        get("/papi") {
+        get("/api") {
             call.respondText("Hello World!")
         }
         get ("/*") {

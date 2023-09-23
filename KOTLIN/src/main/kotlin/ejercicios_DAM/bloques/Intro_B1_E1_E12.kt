@@ -1,4 +1,4 @@
-package ejercicios_DAM
+package ejercicios_DAM.bloques
 
 fun ejercicios(){
 

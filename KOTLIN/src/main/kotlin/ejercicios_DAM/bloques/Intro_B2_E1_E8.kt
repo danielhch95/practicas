@@ -1,6 +1,4 @@
-package ejercicios_DAM
-
-import kotlin.math.roundToInt
+package ejercicios_DAM.bloques
 
 
 // Intro_B2_E1:
