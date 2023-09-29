@@ -32,13 +32,15 @@ fun ejercicio_B2_2() {
 
 // Intro_B2_E3:
 fun ejercicio_B2_3(){
-    val num1: Int = readln().toInt()
-    val num2: Int = readln().toInt()
+    val numeros = readln()
+    val lista = numeros.split(" ")
+    val num1: Int = lista[0].toInt()
+    val num2: Int = lista[1].toInt()
     if (num1 % num2 == 0) {
-        print("$num1 es multiplo de $num2")
+        print("$num1 es múltiplo de $num2")
     }
     else {
-        print("$num1 NO es multiplo de $num2")
+        print("$num1 no es múltiplo de $num2")
     }
 }
 

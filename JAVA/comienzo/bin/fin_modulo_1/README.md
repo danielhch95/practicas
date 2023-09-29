@@ -1,5 +1,0 @@
-## IDEA:
-
-<!-- Plataforma online educativa -->
-
-<!--  -->
