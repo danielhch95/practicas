@@ -1,4 +1,4 @@
-package basic.OOP.clases;
+package OOP.clases;
 
 public class empleado extends persona implements datos_clave{
     private String department;

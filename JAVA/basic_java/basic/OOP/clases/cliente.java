@@ -1,4 +1,4 @@
-package basic.OOP.clases;
+package OOP.clases;
 
 public class cliente extends persona {
     protected String CIF;

@@ -1,12 +1,12 @@
-package basic.OOP;
+package OOP;
 
 import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-import basic.OOP.clases.empleado;
-import basic.OOP.clases.persona;
+import OOP.clases.empleado;
+import OOP.clases.persona;
 
 public class oop {
     public static void main(String[] args) throws IOException {

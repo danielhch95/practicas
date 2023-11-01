@@ -1,4 +1,4 @@
-package basic.OOP.clases;
+package OOP.clases;
 
 import java.time.LocalDate;
 
